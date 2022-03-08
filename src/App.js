@@ -4,7 +4,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="text-orange-500 font-bont text-center text-4xl p-4 ">
+    <div className="m-0 p-0">
       <Header />
       <Outlet />
       <Footer />
