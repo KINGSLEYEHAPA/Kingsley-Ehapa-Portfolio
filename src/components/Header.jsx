@@ -9,11 +9,11 @@ const Header = () => {
   AOS.init({ duration: 1200 });
   const [isMobile, setIsMobile] = useState(false);
   return (
-    <div className=" items-center h-20 relative  flex justify-between w-screen px-6 bg-slate-900">
+    <div className=" items-center h-20 relative  flex justify-between w-screen px-6 bg-slate-700">
       <div className="">
         <Link
           to="/"
-          className=" flex items-center gap-1 text-xl ssm:text-2xl  lg:text-3xl  text-white font-bold  pr-3 "
+          className=" flex items-center gap-1 text-xl ssm:text-2xl  lg:text-3xl  text-slate-300 font-bold  pr-3 "
         >
           <span className=" mx-0 text">
             <ImStack />
@@ -22,7 +22,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className=" gap-8 hidden ssm:flex text-slate-700 md:mr-48">
+      <div className=" gap-8 hidden ssm:flex text-slate-300 md:mr-48">
         <Link to="/" className="hover:text-white   p-1 rounded-md font-bold">
           <p>Home</p>{" "}
         </Link>
@@ -42,7 +42,7 @@ const Header = () => {
           data-aos-easing="ease-in-out"
           className={
             isMobile
-              ? "  flex flex-col gap-6 bg-slate-900 absolute ssm:hidden mx-0 top-20 w-full right-1 px-10 py-5 z-20 text-center justify-center items-center h-56 text-slate-500 space-y-2   "
+              ? "  flex flex-col gap-6 bg-slate-700 absolute ssm:hidden mx-0 top-20 w-full right-1 px-10 py-5 z-20 text-center justify-center items-center h-56 text-slate-300 space-y-2   "
               : "hidden"
           }
         >
@@ -82,7 +82,7 @@ const Header = () => {
         onClick={() => {
           setIsMobile(!isMobile);
         }}
-        className="text-white  mr-1 text-3xl ssm:hidden hover:text-slate-700"
+        className="text-slate-300  mr-1 text-3xl ssm:hidden "
       >
         <BiMenuAltRight />
       </span>
