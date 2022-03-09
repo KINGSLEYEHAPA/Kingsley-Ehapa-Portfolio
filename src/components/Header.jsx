@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { ImStack } from "react-icons/im";
 import { BiMenuAltRight } from "react-icons/bi";
+import { MdClose } from "react-icons/md";
+import { BsTwitter, BsGithub, BsLinkedin } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
@@ -42,39 +44,62 @@ const Header = () => {
           data-aos-easing="ease-in-out"
           className={
             isMobile
-              ? "  flex flex-col gap-6 bg-slate-700 absolute ssm:hidden  top-20 w-full right-[0.5px] px-10 py-5 z-20 text-center justify-center items-center h-56 text-slate-300 space-y-2   "
+              ? "  flex flex-row  bg-slate-700/60 absolute ssm:hidden  top-0 w-full right-[0.5px] z-20 text-center justify-end items-center h-screen text-slate-300 space-y-2   "
               : "hidden"
           }
         >
-          <Link
-            to="/"
-            className="hover:text-white text-xl "
-            onClick={() => {
-              setIsMobile(false);
-            }}
-          >
-            <p>Home</p>{" "}
-          </Link>
-          <Link
-            to="/"
-            className=" hover:text-white text-xl "
-            onClick={() => {
-              setIsMobile(false);
-            }}
-          >
-            {" "}
-            <p>Projects</p>{" "}
-          </Link>
+          <div className="w-72 bg-white h-full  p-2">
+            <div className="w-full h-20 bg-red-500 flex justify-between items-center px-4 text-2xl">
+              <div className="flex gap-4">
+                <a href="#">
+                  <BsLinkedin />{" "}
+                </a>
+                <a href="#">
+                  <BsGithub />{" "}
+                </a>
+                <a href="#">
+                  <BsTwitter />{" "}
+                </a>
+              </div>{" "}
+              <span
+                className="text-2xl text-white"
+                onClick={() => {
+                  setIsMobile(false);
+                }}
+              >
+                <MdClose />
+              </span>{" "}
+            </div>
+            <Link
+              to="/"
+              className="hover:text-white text-xl "
+              onClick={() => {
+                setIsMobile(false);
+              }}
+            >
+              <p>Home</p>{" "}
+            </Link>
+            <Link
+              to="/"
+              className=" hover:text-white text-xl "
+              onClick={() => {
+                setIsMobile(false);
+              }}
+            >
+              {" "}
+              <p>Projects</p>{" "}
+            </Link>
 
-          <Link
-            to="/"
-            className="hover:text-white text-xl "
-            onClick={() => {
-              setIsMobile(false);
-            }}
-          >
-            <p>Contact</p>{" "}
-          </Link>
+            <Link
+              to="/"
+              className="hover:text-white text-xl "
+              onClick={() => {
+                setIsMobile(false);
+              }}
+            >
+              <button>Contact Me</button>
+            </Link>
+          </div>
         </div>
       )}
 

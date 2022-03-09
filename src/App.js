@@ -20,7 +20,7 @@ function App() {
       ></div>
       <Header />
       <Outlet />
-      <h2>Background</h2>
+      <h2 className="bg-white">Background</h2>
       <Footer />
     </div>
   );
