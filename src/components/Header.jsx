@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ImStack } from "react-icons/im";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
-import { BsTwitter, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsTwitter, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
@@ -59,6 +59,9 @@ const Header = () => {
                 </a>
                 <a href="#">
                   <BsTwitter />{" "}
+                </a>
+                <a href="#">
+                  <BsInstagram />{" "}
                 </a>
               </div>{" "}
               <span
