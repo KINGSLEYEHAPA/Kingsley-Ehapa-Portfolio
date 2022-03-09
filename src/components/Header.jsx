@@ -9,7 +9,7 @@ const Header = () => {
   AOS.init({ duration: 1200 });
   const [isMobile, setIsMobile] = useState(false);
   return (
-    <div className=" items-center h-20 relative  flex justify-between w-screen px-6 bg-slate-700">
+    <div className=" items-center h-20 relative  flex justify-between w-screen px-6 ">
       <div className="">
         <Link
           to="/"
