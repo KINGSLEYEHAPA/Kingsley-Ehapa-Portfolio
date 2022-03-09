@@ -48,8 +48,8 @@ const Header = () => {
               : "hidden"
           }
         >
-          <div className="w-72 bg-white h-full  p-2">
-            <div className="w-full h-20 bg-red-500 flex justify-between items-center px-4 text-2xl">
+          <div className="w-72 bg-slate-500 h-full  p-2 flex flex-col gap-4">
+            <div className="w-full h-20  flex justify-between items-center px-4 text-2xl text-white border-b-2 border-white mb-10">
               <div className="flex gap-4">
                 <a href="#">
                   <BsLinkedin />{" "}
@@ -62,7 +62,7 @@ const Header = () => {
                 </a>
               </div>{" "}
               <span
-                className="text-2xl text-white"
+                className="text-3xl "
                 onClick={() => {
                   setIsMobile(false);
                 }}
@@ -72,7 +72,7 @@ const Header = () => {
             </div>
             <Link
               to="/"
-              className="hover:text-white text-xl "
+              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 "
               onClick={() => {
                 setIsMobile(false);
               }}
@@ -81,7 +81,7 @@ const Header = () => {
             </Link>
             <Link
               to="/"
-              className=" hover:text-white text-xl "
+              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 "
               onClick={() => {
                 setIsMobile(false);
               }}
@@ -97,7 +97,9 @@ const Header = () => {
                 setIsMobile(false);
               }}
             >
-              <button>Contact Me</button>
+              <button className="bg-white text-slate-900  text-lg px-3 py-1 rounded-md">
+                Contact Me
+              </button>
             </Link>
           </div>
         </div>
