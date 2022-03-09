@@ -42,7 +42,7 @@ const Header = () => {
           data-aos-easing="ease-in-out"
           className={
             isMobile
-              ? "  flex flex-col gap-6 bg-slate-700 absolute ssm:hidden mx-0 top-20 w-full right-1 px-10 py-5 z-20 text-center justify-center items-center h-56 text-slate-300 space-y-2   "
+              ? "  flex flex-col gap-6 bg-slate-700 absolute ssm:hidden  top-20 w-full right-[0.5px] px-10 py-5 z-20 text-center justify-center items-center h-56 text-slate-300 space-y-2   "
               : "hidden"
           }
         >
