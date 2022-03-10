@@ -8,7 +8,7 @@ import { SiJavascript, SiTailwindcss, SiRedux } from "react-icons/si";
 const Footer = () => {
   return (
     <div className=" h-[40rem] md:h-[25rem] bg-slate-700 flex flex-col justify-center gap-12 ssmgap-24 items-start p-10 ssm:px-2 md:flex md:flex-row md:justify-between md:px-20">
-      <div>
+      <div className="ml-6">
         {" "}
         <Link
           to="/"
@@ -46,8 +46,8 @@ const Footer = () => {
           <p>Copyright-Kingsley Ehapa &copy; 2022</p>
         </div>
       </div>
-      <div className="">
-        <h2 className="mb-5 pb-2 border-b-2 border-white text-xl text-slate-300 font-bold  ">
+      <div className="  ml-6 md:mr-14 md:mb-2 md:mt-4">
+        <h2 className="mb-5 mt-[-0.5rem]  pb-2 border-b-2 border-white text-xl text-slate-300 font-bold  ">
           Coding Stack
         </h2>
 
