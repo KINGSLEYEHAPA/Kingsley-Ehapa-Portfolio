@@ -11,7 +11,7 @@ const Header = () => {
   AOS.init({ duration: 1200 });
   const [isMobile, setIsMobile] = useState(false);
   return (
-    <div className=" items-center h-20 relative  flex justify-between w-screen px-6 ">
+    <div className=" items-center h-20 relative  flex justify-between w-full px-6 ">
       <div className="">
         <Link
           to="/"
@@ -34,6 +34,10 @@ const Header = () => {
         </Link>
         <Link to="/" className="hover:text-white  p-1 rounded-md font-bold">
           {" "}
+          <p>Skills</p>{" "}
+        </Link>
+        <Link to="/" className="hover:text-white  p-1 rounded-md font-bold">
+          {" "}
           <p>Contact</p>{" "}
         </Link>
       </div>
@@ -48,19 +52,19 @@ const Header = () => {
               : "hidden"
           }
         >
-          <div className="w-72 bg-slate-500 h-full  p-2 flex flex-col gap-4">
+          <div className="w-72 bg-slate-500 h-full  p-2 flex flex-col items-center gap-4">
             <div className="w-full h-20  flex justify-between items-center px-4 text-2xl text-white border-b-2 border-white mb-10">
               <div className="flex gap-4">
-                <a href="#">
+                <a href="#" className="hover:text-slate-300">
                   <BsLinkedin />{" "}
                 </a>
-                <a href="#">
+                <a href="#" className="hover:text-slate-300">
                   <BsGithub />{" "}
                 </a>
-                <a href="#">
+                <a href="#" className="hover:text-slate-300">
                   <BsTwitter />{" "}
                 </a>
-                <a href="#">
+                <a href="#" className="hover:text-slate-300">
                   <BsInstagram />{" "}
                 </a>
               </div>{" "}
@@ -81,6 +85,16 @@ const Header = () => {
               }}
             >
               <p>Home</p>{" "}
+            </Link>
+            <Link
+              to="/"
+              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 "
+              onClick={() => {
+                setIsMobile(false);
+              }}
+            >
+              {" "}
+              <p>Skills</p>{" "}
             </Link>
             <Link
               to="/"

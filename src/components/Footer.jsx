@@ -22,16 +22,16 @@ const Footer = () => {
           </span>
         </Link>{" "}
         <div className="flex gap-4 text-white text-2xl">
-          <a href="#">
+          <a href="#" className="hover:text-slate-300">
             <BsLinkedin />{" "}
           </a>
-          <a href="#">
+          <a href="#" className="hover:text-slate-300">
             <BsGithub />{" "}
           </a>
-          <a href="#">
+          <a href="#" className="hover:text-slate-300">
             <BsTwitter />{" "}
           </a>
-          <a href="#">
+          <a href="#" className="hover:text-slate-300">
             <BsInstagram />{" "}
           </a>
         </div>{" "}
