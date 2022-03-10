@@ -24,13 +24,13 @@ const Homepage = () => {
         <div className=" h-96 lg:h-full w-full flex gap-16 md:gap-8 ssm:0 justify-start lg:px-4 order-2 lg:order-1">
           <div
             data-aos="zoom-out-up"
-            className=" w-72 md:w-80 h-56 ssm:h-96 md:h-full  "
+            className=" w-88 md:w-80 h-72 ssm:h-96 md:h-full  "
           >
             <img className="w-full h-full rounded-lg" src={portrait} alt="" />
           </div>
           <div
             data-aos="flip-up"
-            className=" w-72 ssm:w-72 md:w-72 h-72 ssm:h-72  lg:mr-6 md:mr-56 p-1 flex flex-col justify-start items-start space-y-6 ssm:space-y-12 lg:space-y-20"
+            className=" w-56 ssm:w-72 md:w-72 h-72 ssm:h-72  lg:mr-6 md:mr-56 p-1 flex flex-col justify-start items-start space-y-6 ssm:space-y-12 lg:space-y-16"
           >
             <div className="text-slate-300 space-y-2">
               <h3 className="text-2xl">Kingsley Omozogie Ehapa</h3>
@@ -64,30 +64,43 @@ const Homepage = () => {
                 <BsInstagram />{" "}
               </a>
             </div>
+            <div>
+              {" "}
+              <a
+                className="py-2 px-4 bg-white font-bold rounded text-slate-500"
+                target="_blank"
+                href=" https://docs.google.com/document/d/1tIOWDsmRjXxfForSyBKXBiXQcSmzBvTF/edit?usp=sharing&ouid=115874360830853364717&rtpof=true&sd=true"
+              >
+                Resume
+              </a>
+            </div>
           </div>
         </div>
         <div className=" bg-slate-700 h-80 lg:h-full w-screen translate-x-[-32px] lg:w-full lg:w-screen order-1 lg:order-2 p-4  pl-14 pb-12  flex justify-center items-center mx-0">
           <h1
             data-aos="fade-down-left"
-            className="text-5xl md:text-6xl xl:text-7xl text-slate-300 hover:text-white mb-28 ssm:mb-0 "
+            className="text-5xl md:text-6xl xl:text-7xl text-slate-300 hover:text-white mb-28 ssm:mb-0 ml-16 ssm:ml-0 "
           >
             I Build Beautiful Web Applications...
           </h1>
         </div>
       </main>
-      {/* Skills Section */}
+      {/* Stack Section */}
 
-      <div className="mx-8">
-        <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">Skills</h3>
+      <div className="ml-8 mr-6">
+        <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">My Skills</h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
-        <div className="mt-4 flex flex-col gap-10 ">
-          <div className="flex gap-12">
+        <div className="mt-4 flex flex-col gap-7  ">
+          <div className="flex gap-14 ssm:gap-16">
             <p className="flex gap-2   text-lg ssm:text-2xl text-slate-300 w-36">
               <FaReact />
               <span>React</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 bg-white p-4">
-              <p>
+            <div className="w-72 ssm:w-full h-56  p-4">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-xl text-slate-300"
+              >
                 I have intermediate experience working with React and different
                 libraries with the tech. I am experienced writing applications
                 using React, React-router-dom for routing,React redux for state
@@ -95,59 +108,61 @@ const Homepage = () => {
               </p>
             </div>
           </div>
-          <div className="flex gap-12">
+          <div className="flex gap-14 ssm:gap-16">
             <p className="flex gap-2  text-lg ssm:text-2xl text-slate-300 w-36">
               <FaCss3 />
               <span>CSS3</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 bg-white p-4">
-              <p>
-                I have intermediate experience working with React and different
-                libraries with the tech. I am experienced writing applications
-                using React, React-router-dom for routing,React redux for state
-                management.{" "}
+            <div className="w-72 ssm:w-full h-56  p-4">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-xl text-slate-300"
+              >
+                My CSS3 skills is Intermediate and I am very versatile with the
+                rules of quickly styling an application.
               </p>
             </div>
           </div>
-          <div className="flex gap-12">
+          <div className="flex gap-14 ssm:gap-16">
             <p className="flex gap-2 text-lg ssm:text-2xl text-slate-300 w-36">
               <FaHtml5 />
               <span>HTML5</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 bg-white p-4">
-              <p>
-                I have intermediate experience working with React and different
-                libraries with the tech. I am experienced writing applications
-                using React, React-router-dom for routing,React redux for state
-                management.{" "}
+            <div className="w-72 ssm:w-full h-56 p-4">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-xl text-slate-300"
+              >
+                Expert knowledge of HTML5.
               </p>
             </div>
           </div>
-          <div className="flex gap-12">
+          <div className="flex gap-14">
             <p className="flex gap-2 text-lg ssm:text-2xl text-slate-300 w-36">
               <SiJavascript />
               <span>Javascript ES6+</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 bg-white p-4">
-              <p>
-                I have intermediate experience working with React and different
-                libraries with the tech. I am experienced writing applications
-                using React, React-router-dom for routing,React redux for state
-                management.{" "}
+            <div className="w-72 ssm:w-full h-56  p-4">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-xl text-slate-300"
+              >
+                Advanced Javascript, a ES6+ Syntax.
               </p>
             </div>
           </div>
-          <div className="flex gap-12">
+          <div className="flex gap-14">
             <p className="flex gap-2 text-lg ssm:text-2xl text-slate-300 w-36">
               <SiTailwindcss />
-              <span>TailwindCSS 3.0</span>
+              <span>TailwindCSS</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 bg-white p-4">
-              <p>
-                I have intermediate experience working with React and different
-                libraries with the tech. I am experienced writing applications
-                using React, React-router-dom for routing,React redux for state
-                management.{" "}
+            <div className="w-72 ssm:w-full h-56 p-4 ml-[-0.70rem] ">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-xl text-slate-300"
+              >
+                I write most of my my applications of recent using TailwindCSS.I
+                have intermediate to advance skill level
               </p>
             </div>
           </div>
@@ -155,17 +170,21 @@ const Homepage = () => {
             <p className=" ml-8 ssm:ml-9 text-lg ssm:text-2xl text-slate-300 ">
               <span>AJAX</span>
             </p>
-            <div className="w-56 ssm:w-full h-56 bg-white p-4 ml-40 ssm:ml-48">
-              <p>
-                I have intermediate experience working with React and different
-                libraries with the tech. I am experienced writing applications
-                using React, React-router-dom for routing,React redux for state
-                management.{" "}
+            <div className="w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 p-4 ml-[10rem] md:translate-x-7 ">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-xl text-slate-300"
+              >
+                I am also very conversant with making asynchronous calls to APIs
+                and writing AJAX.
               </p>
             </div>
           </div>
         </div>
+        <hr className="w-full mt-8 border-b-2  border-slate-300"></hr>
       </div>
+      {/* Projects Section */}
+      <div></div>
     </div>
   );
 };

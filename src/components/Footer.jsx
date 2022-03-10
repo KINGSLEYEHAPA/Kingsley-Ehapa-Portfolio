@@ -4,10 +4,11 @@ import { ImStack } from "react-icons/im";
 import { BsTwitter, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiRedux } from "react-icons/si";
+import ContactForm from "./ContactForm";
 
 const Footer = () => {
   return (
-    <div className=" h-[40rem] md:h-[25rem] bg-slate-700 flex flex-col justify-center gap-12 ssmgap-24 items-start p-10 ssm:px-2 md:flex md:flex-row md:justify-between md:px-20">
+    <div className=" h-[55rem] md:h-[25rem] bg-slate-700 flex flex-col justify-center gap-12 ssmgap-24 items-start p-10 ssm:px-2 md:flex md:flex-row md:justify-between md:px-20">
       <div className="ml-2">
         {" "}
         <Link
@@ -78,6 +79,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <ContactForm />
     </div>
   );
 };
