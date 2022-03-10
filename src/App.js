@@ -20,7 +20,6 @@ function App() {
       ></div>
       <Header />
       <Outlet />
-      <h2 className="bg-white">Background</h2>
       <Footer />
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ImStack } from "react-icons/im";
 import { BsTwitter, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
-import { FaHtml5, FaCss3, FaBootstrap, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss, SiRedux } from "react-icons/si";
 
 const Footer = () => {
@@ -43,7 +43,7 @@ const Footer = () => {
               Contact Me
             </button>
           </Link>
-          <p>Copyright-Kingsley Ehapa &copy; 2022</p>
+          <p> Kingsley Ehapa copyright &copy; 2022</p>
         </div>
       </div>
       <div className="  ml-6 md:mr-14 md:mb-2 md:mt-4">
