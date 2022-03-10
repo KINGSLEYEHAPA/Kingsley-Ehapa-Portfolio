@@ -181,10 +181,14 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <hr className="w-full mt-8 border-b-2  border-slate-300"></hr>
       </div>
       {/* Projects Section */}
-      <div></div>
+      <div className="ml-8 mr-6">
+        <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">
+          My Projects
+        </h3>
+        <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
+      </div>
     </div>
   );
 };
