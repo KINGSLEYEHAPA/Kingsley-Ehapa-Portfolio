@@ -3,10 +3,12 @@ import portrait from "../assets/portrait.jpg";
 import { BsTwitter, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
+import { DiNodejsSmall, DiGithubFull } from "react-icons/di";
+import ProjectCard from "./ProjectCard";
 
 const Homepage = () => {
   return (
-    <div id="home" className="w-full px-4 h-[160rem] bg-slate-700 ">
+    <div id="home" className="w-full px-4 min-h-[160rem] bg-slate-700 ">
       <div
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
@@ -90,33 +92,33 @@ const Homepage = () => {
       <div className="ml-8 mr-6" id="skills">
         <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">My Skills</h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
-        <div className="mt-4 flex flex-col gap-7  ">
+        <div className="mt-4 flex flex-col gap-7 py-4 ">
           <div className="flex gap-14 ssm:gap-16">
-            <p className="flex gap-2   text-lg ssm:text-2xl text-slate-300 w-36">
+            <p className="flex gap-2   text-lg ssm:text-xl text-slate-300 w-36">
               <FaReact />
               <span>React</span>
             </p>
-            <div className="w-72 ssm:w-full h-56  px-4 py-1">
+            <div className="w-72 ssm:w-full h-56 lg:h-28  px-4 py-1">
               <p
                 data-aos="zoom-out-down"
-                className="ssm:text-xl text-slate-300"
+                className="ssm:text-lg text-slate-300"
               >
                 I have intermediate experience working with React and different
                 libraries with the tech. I am experienced writing applications
-                using React, React-router-dom for routing,React redux for state
-                management.{" "}
+                using React, React components,Hooks, React-router-dom for
+                routing,React redux for state management.{" "}
               </p>
             </div>
           </div>
           <div className="flex gap-14 ssm:gap-16">
-            <p className="flex gap-2  text-lg ssm:text-2xl text-slate-300 w-36">
+            <p className="flex gap-2  text-lg ssm:text-xl text-slate-300 w-36">
               <FaCss3 />
               <span>CSS3</span>
             </p>
-            <div className="w-72 ssm:w-full h-56  px-4 py-1">
+            <div className="w-72 ssm:w-full h-56 lg:h-28  px-4 py-1">
               <p
                 data-aos="zoom-out-down"
-                className="ssm:text-xl text-slate-300"
+                className="ssm:text-lg text-slate-300"
               >
                 My CSS3 skills is Intermediate and I am very versatile with the
                 rules of quickly styling an application.
@@ -124,56 +126,85 @@ const Homepage = () => {
             </div>
           </div>
           <div className="flex gap-14 ssm:gap-16">
-            <p className="flex gap-2 text-lg ssm:text-2xl text-slate-300 w-36">
+            <p className="flex gap-2 text-lg ssm:text-xl text-slate-300 w-36">
               <FaHtml5 />
               <span>HTML5</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 px-4 py-1">
+            <div className="w-72 ssm:w-full h-56 lg:h-28 px-4 py-1">
               <p
                 data-aos="zoom-out-down"
-                className="ssm:text-xl text-slate-300"
+                className="ssm:text-lg text-slate-300"
               >
-                Expert knowledge of HTML5.
+                Expert knowledge of HTML5 and Semantics.
               </p>
             </div>
           </div>
           <div className="flex gap-14">
-            <p className="flex gap-2 text-lg ssm:text-2xl text-slate-300 w-36">
+            <p className="flex gap-2 text-lg ssm:text-xl text-slate-300 w-36">
               <SiJavascript />
               <span>Javascript ES6+</span>
             </p>
-            <div className="w-72 ssm:w-full h-56  px-4 py-1">
+            <div className="w-72 ssm:w-full h-56 lg:h-28  px-4 py-1">
               <p
                 data-aos="zoom-out-down"
-                className="ssm:text-xl text-slate-300"
+                className="ssm:text-lg text-slate-300"
               >
                 Advanced Javascript, a ES6+ Syntax.
               </p>
             </div>
           </div>
           <div className="flex gap-14">
-            <p className="flex gap-2 text-lg ssm:text-2xl text-slate-300 w-36">
+            <p className="flex gap-2 text-lg ssm:text-xl text-slate-300 w-36">
               <SiTailwindcss />
               <span>TailwindCSS</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 px-4 py-1 ml-[-0.70rem] ">
+            <div className="w-72 ssm:w-full h-56 lg:h-28 px-4 py-1 ml-[-0.70rem] ">
               <p
                 data-aos="zoom-out-down"
-                className="ssm:text-xl text-slate-300"
+                className="ssm:text-lg text-slate-300"
               >
                 I write most of my my applications of recent using TailwindCSS.I
                 have intermediate to advance skill level
               </p>
             </div>
           </div>
-          <div className="">
-            <p className=" ml-8 ssm:ml-9 text-lg ssm:text-2xl text-slate-300 ">
-              <span>AJAX</span>
+          <div className="flex gap-14">
+            <p className="flex gap-2 text-lg ssm:text-xl text-slate-300 w-36">
+              <DiNodejsSmall />
+              <span>Node JS</span>
             </p>
-            <div className="w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 px-4 py-1 ml-[10rem] md:translate-x-7 ">
+            <div className="w-72 ssm:w-full h-56 lg:h-28 px-4 py-1 ml-[-0.70rem] ">
               <p
                 data-aos="zoom-out-down"
-                className="ssm:text-xl text-slate-300"
+                className="ssm:text-lg text-slate-300"
+              >
+                I write javascript outside the browser using node js via the
+                terminal and also install and manage project dependencies.
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-14">
+            <p className="flex gap-2 text-lg ssm:text-xl text-slate-300 w-36">
+              <DiGithubFull />
+              <span>GIT and Github</span>
+            </p>
+            <div className="w-72 ssm:w-full h-56 lg:h-28 px-4 py-1 ml-[-0.70rem] ">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-lg text-slate-300"
+              >
+                I use the Github platform for versioning my code.
+              </p>
+            </div>
+          </div>
+          <div className="">
+            <p className=" ml-8 ssm:ml-9 text-lg ssm:text-xl text-slate-300 ">
+              <span>AJAX</span>
+            </p>
+            <div className="w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 lg:h-28 px-4 py-1 ml-[10rem] md:translate-x-7 ">
+              <p
+                data-aos="zoom-out-down"
+                className="ssm:text-lg text-slate-300"
               >
                 I am also very conversant with making asynchronous calls to APIs
                 and writing AJAX.
@@ -188,6 +219,8 @@ const Homepage = () => {
           My Projects
         </h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
+
+        <ProjectCard />
       </div>
     </div>
   );
