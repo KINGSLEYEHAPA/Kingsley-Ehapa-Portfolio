@@ -48,11 +48,13 @@ const Footer = () => {
         <div className="space-y-2 mt-8 text-slate-500">
           <p>Lagos Nigeria</p>
           <p>Email:kessity09@gmail.com</p>
-          <Link to="/" className="hover:text-white text-xl  ">
-            <button className="bg-white text-slate-900  text-lg px-3 py-1 rounded-md mt-8 hover:bg-slate-300 hover:text-slate-700">
+
+          <a href="mailto:kessity09@gmail.com">
+            <button className="bg-white text-slate-900  text-lg px-3 py-1 rounded-md mt-2 hover:bg-slate-300 hover:text-slate-700">
               Contact Me
             </button>
-          </Link>
+          </a>
+
           <p> Kingsley Ehapa copyright &copy; 2022</p>
         </div>
       </div>
