@@ -5,7 +5,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
 import { BsTwitter, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 
 const Header = () => {
   AOS.init({ duration: 1200 });
@@ -84,10 +84,16 @@ const Header = () => {
           <div className="w-72 bg-slate-500 h-full  p-2 flex flex-col items-center gap-4">
             <div className="w-full h-20  flex justify-between items-center px-4 text-2xl text-white border-b-2 border-white mb-10">
               <div className="flex gap-4">
-                <a href="#" className="hover:text-slate-300">
+                <a
+                  href="https://www.linkedin.com/in/kingsley-ehapa-11ba2438/"
+                  className="hover:text-slate-300"
+                >
                   <BsLinkedin />{" "}
                 </a>
-                <a href="#" className="hover:text-slate-300">
+                <a
+                  href="https://github.com/KINGSLEYEHAPA?tab=repositories"
+                  className="hover:text-slate-300"
+                >
                   <BsGithub />{" "}
                 </a>
                 <a href="#" className="hover:text-slate-300">

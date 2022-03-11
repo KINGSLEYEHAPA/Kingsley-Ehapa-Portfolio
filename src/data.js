@@ -1,10 +1,10 @@
-const myProjects = [
+export const myProjects = [
   {
     name: "React Router page ",
     description:
       "A page to demostrate React Routing and API calls to json placeholder",
     img: "https://i.postimg.cc/Mp8przNb/Screenshot-84.png",
-    skills: ["HTML", "CSS", "Javascript", "React", "NodeJS"],
+    skills: ["HTML", "CSS", "Javascript", "React"],
     link_github: "https://github.com/KINGSLEYEHAPA/React-Router-Assignment",
     link_deployment: " https://react-router-assignment-kappa.vercel.app/",
   },
@@ -13,7 +13,7 @@ const myProjects = [
     description:
       "A Food ordering App.The application make calls to a food API and return hundreds of food product for the customer to buy. ",
     img: "https://i.postimg.cc/0QLzkDWh/food.png",
-    skills: ["HTML", "CSS", "Javascript", "React", "NodeJS", "React-Redux"],
+    skills: ["HTML", "CSS", "Javascript", "React", "React-Redux"],
     link_github: "https://github.com/KINGSLEYEHAPA/Food-Ordering-Application",
     link_deployment: " https://food-ordering-orpin.vercel.app/",
   },
@@ -22,7 +22,15 @@ const myProjects = [
     description:
       "The application takes a user station code and display rides closest to his station,past and upcoming rides.",
     img: "https://i.postimg.cc/rFGDTdSY/edvora.png",
-    skills: ["HTML", "CSS", "Javascript", "React", "NodeJS", "React-Redux"],
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+
+      "React-Redux",
+      "TailWindCSS",
+    ],
     link_github: "https://github.com/KINGSLEYEHAPA/edvora-ride-hailing-app",
     link_deployment: " https://edvora-1.vercel.app/",
   },
@@ -31,7 +39,14 @@ const myProjects = [
     description:
       "A travel App. User can type in location and get weather report,news and Attractions in the location.",
     img: "https://i.postimg.cc/YCbj4JD6/traveler.png",
-    skills: ["HTML", "CSS", "Javascript", "React", "NodeJS", "React-Redux"],
+    skills: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "React-Redux",
+      "TailWindCSS",
+    ],
     link_github: "https://github.com/KINGSLEYEHAPA/stutern-traveler-app",
     link_deployment: "https://stutern-traveler-app-project.vercel.app/",
   },
@@ -78,7 +93,7 @@ const myProjects = [
     name: "Coder-Kingsley Omozogie Ehapa",
     description: "My Portfolio Version 1, 2022",
     img: "",
-    skills: ["HTML", "CSS", "Javascript", "React", "NodeJS"],
+    skills: ["HTML", "CSS", "Javascript", "React", "TailWindCSS"],
     link_github: "https://github.com/KINGSLEYEHAPA/Kingsley-Ehapa-Portfolio",
     link_deployment: "",
   },

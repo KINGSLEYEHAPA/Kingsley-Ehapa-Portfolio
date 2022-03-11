@@ -53,10 +53,16 @@ const Homepage = () => {
               </div>
             </div>
             <div className="flex gap-6 text-white text-xl">
-              <a href="#" className="hover:text-slate-300">
+              <a
+                href="https://www.linkedin.com/in/kingsley-ehapa-11ba2438/"
+                className="hover:text-slate-300"
+              >
                 <BsLinkedin />{" "}
               </a>
-              <a href="#" className="hover:text-slate-300">
+              <a
+                href="https://github.com/KINGSLEYEHAPA?tab=repositories"
+                className="hover:text-slate-300"
+              >
                 <BsGithub />{" "}
               </a>
               <a href="#" className="hover:text-slate-300">
@@ -219,8 +225,9 @@ const Homepage = () => {
           My Projects
         </h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
-
-        <ProjectCard />
+        <div className="flex flex-wrap">
+          <ProjectCard />
+        </div>
       </div>
     </div>
   );

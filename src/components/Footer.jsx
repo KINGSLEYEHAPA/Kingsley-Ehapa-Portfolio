@@ -26,10 +26,16 @@ const Footer = () => {
           </span>
         </Link>{" "}
         <div className="flex gap-4 text-white text-2xl">
-          <a href="#" className="hover:text-slate-300">
+          <a
+            href="https://www.linkedin.com/in/kingsley-ehapa-11ba2438/"
+            className="hover:text-slate-300"
+          >
             <BsLinkedin />{" "}
           </a>
-          <a href="#" className="hover:text-slate-300">
+          <a
+            href="https://github.com/KINGSLEYEHAPA?tab=repositories"
+            className="hover:text-slate-300"
+          >
             <BsGithub />{" "}
           </a>
           <a href="#" className="hover:text-slate-300">
