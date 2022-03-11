@@ -6,7 +6,7 @@ import { SiJavascript, SiTailwindcss } from "react-icons/si";
 
 const Homepage = () => {
   return (
-    <div className="w-full px-4 h-[160rem] bg-slate-700 ">
+    <div id="home" className="w-full px-4 h-[160rem] bg-slate-700 ">
       <div
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
@@ -67,7 +67,7 @@ const Homepage = () => {
             <div>
               {" "}
               <a
-                className="py-2 px-4 bg-white font-bold rounded text-slate-500"
+                className="py-2 px-4 bg-white font-bold rounded text-slate-500 hover:bg-slate-900 hover:text-white"
                 target="_blank"
                 href=" https://docs.google.com/document/d/1tIOWDsmRjXxfForSyBKXBiXQcSmzBvTF/edit?usp=sharing&ouid=115874360830853364717&rtpof=true&sd=true"
               >
@@ -87,7 +87,7 @@ const Homepage = () => {
       </main>
       {/* Stack Section */}
 
-      <div className="ml-8 mr-6">
+      <div className="ml-8 mr-6" id="skills">
         <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">My Skills</h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
         <div className="mt-4 flex flex-col gap-7  ">
@@ -96,7 +96,7 @@ const Homepage = () => {
               <FaReact />
               <span>React</span>
             </p>
-            <div className="w-72 ssm:w-full h-56  p-4">
+            <div className="w-72 ssm:w-full h-56  px-4 py-1">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-xl text-slate-300"
@@ -113,7 +113,7 @@ const Homepage = () => {
               <FaCss3 />
               <span>CSS3</span>
             </p>
-            <div className="w-72 ssm:w-full h-56  p-4">
+            <div className="w-72 ssm:w-full h-56  px-4 py-1">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-xl text-slate-300"
@@ -128,7 +128,7 @@ const Homepage = () => {
               <FaHtml5 />
               <span>HTML5</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 p-4">
+            <div className="w-72 ssm:w-full h-56 px-4 py-1">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-xl text-slate-300"
@@ -142,7 +142,7 @@ const Homepage = () => {
               <SiJavascript />
               <span>Javascript ES6+</span>
             </p>
-            <div className="w-72 ssm:w-full h-56  p-4">
+            <div className="w-72 ssm:w-full h-56  px-4 py-1">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-xl text-slate-300"
@@ -156,7 +156,7 @@ const Homepage = () => {
               <SiTailwindcss />
               <span>TailwindCSS</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 p-4 ml-[-0.70rem] ">
+            <div className="w-72 ssm:w-full h-56 px-4 py-1 ml-[-0.70rem] ">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-xl text-slate-300"
@@ -170,7 +170,7 @@ const Homepage = () => {
             <p className=" ml-8 ssm:ml-9 text-lg ssm:text-2xl text-slate-300 ">
               <span>AJAX</span>
             </p>
-            <div className="w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 p-4 ml-[10rem] md:translate-x-7 ">
+            <div className="w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 px-4 py-1 ml-[10rem] md:translate-x-7 ">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-xl text-slate-300"
@@ -183,7 +183,7 @@ const Homepage = () => {
         </div>
       </div>
       {/* Projects Section */}
-      <div className="ml-8 mr-6">
+      <div className="ml-8 mr-6" id="projects">
         <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">
           My Projects
         </h3>

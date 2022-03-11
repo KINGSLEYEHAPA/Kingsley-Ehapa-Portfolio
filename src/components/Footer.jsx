@@ -8,7 +8,10 @@ import ContactForm from "./ContactForm";
 
 const Footer = () => {
   return (
-    <div className=" h-[55rem] md:h-[25rem] bg-slate-700 flex flex-col justify-center gap-12 ssmgap-24 items-start p-10 ssm:px-2 md:flex md:flex-row md:justify-between md:px-20">
+    <div
+      id="contact"
+      className=" h-[55rem] md:h-[25rem] bg-slate-700 flex flex-col justify-center gap-12 ssmgap-24 items-start p-10 ssm:px-2 md:flex md:flex-row md:justify-between md:px-20"
+    >
       <div className="ml-2">
         {" "}
         <Link

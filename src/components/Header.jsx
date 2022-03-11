@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import { ImStack } from "react-icons/im";
 import { BiMenuAltRight } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
@@ -11,11 +11,12 @@ const Header = () => {
   AOS.init({ duration: 1200 });
   const [isMobile, setIsMobile] = useState(false);
   return (
-    <div className=" items-center h-20 relative  flex justify-between w-full px-6 ">
+    <div className=" items-center h-20 relative  flex justify-between w-full px-6 sticky top-0 z-50 bg-slate-700 ">
       <div className="">
         <Link
-          to="/"
-          className=" flex items-center gap-1 text-xl ssm:text-2xl  lg:text-3xl  text-slate-300 font-bold  pr-3 "
+          to="home"
+          offset={-400}
+          className=" flex items-center gap-1 text-xl ssm:text-2xl  lg:text-3xl  text-slate-300 font-bold  pr-3 cursor-pointer "
         >
           <span className=" mx-0 text">
             <ImStack />
@@ -25,18 +26,46 @@ const Header = () => {
       </div>
 
       <div className=" gap-8 hidden ssm:flex text-slate-300 md:mr-48">
-        <Link to="/" className="hover:text-white   p-1 rounded-md font-bold">
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-400}
+          duration={700}
+          className="hover:text-white   p-1 rounded-md font-bold cursor-pointer"
+        >
           <p>Home</p>{" "}
         </Link>
-        <Link to="/" className="hover:text-white   p-1 rounded-md font-bold">
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-120}
+          duration={1000}
+          className="hover:text-white   p-1 rounded-md font-bold cursor-pointer"
+        >
           {" "}
           <p>Projects</p>{" "}
         </Link>
-        <Link to="/" className="hover:text-white  p-1 rounded-md font-bold">
+        <Link
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-120}
+          duration={1000}
+          className="hover:text-white  p-1 rounded-md font-bold cursor-pointer"
+        >
           {" "}
           <p>Skills</p>{" "}
         </Link>
-        <Link to="/" className="hover:text-white  p-1 rounded-md font-bold">
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={1000}
+          className="hover:text-white  p-1 rounded-md font-bold cursor-pointer"
+        >
           {" "}
           <p>Contact</p>{" "}
         </Link>
@@ -78,8 +107,12 @@ const Header = () => {
               </span>{" "}
             </div>
             <Link
-              to="/"
-              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 "
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-400}
+              duration={700}
+              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 cursor-pointer"
               onClick={() => {
                 setIsMobile(false);
               }}
@@ -87,18 +120,12 @@ const Header = () => {
               <p>Home</p>{" "}
             </Link>
             <Link
-              to="/"
-              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 "
-              onClick={() => {
-                setIsMobile(false);
-              }}
-            >
-              {" "}
-              <p>Skills</p>{" "}
-            </Link>
-            <Link
-              to="/"
-              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 "
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-120}
+              duration={1000}
+              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 cursor-pointer "
               onClick={() => {
                 setIsMobile(false);
               }}
@@ -106,15 +133,33 @@ const Header = () => {
               {" "}
               <p>Projects</p>{" "}
             </Link>
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-120}
+              duration={1000}
+              className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 cursor-pointer"
+              onClick={() => {
+                setIsMobile(false);
+              }}
+            >
+              {" "}
+              <p>Skills</p>{" "}
+            </Link>
 
             <Link
-              to="/"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={1000}
               className="hover:text-white text-xl "
               onClick={() => {
                 setIsMobile(false);
               }}
             >
-              <button className="bg-white text-slate-900  text-lg px-3 py-1 rounded-md">
+              <button className="bg-white text-slate-900  text-lg px-3 py-1 rounded-md cursor-pointer">
                 Contact Me
               </button>
             </Link>
