@@ -7,6 +7,7 @@ const ProjectCard = () => {
       {myProjects.map((item, index) => {
         return (
           <div
+            data-aos="zoom-out-right"
             className="w-72 h-[40rem] bg-slate-300 rounded-lg shadow-xl mt-8"
             key={index}
           >

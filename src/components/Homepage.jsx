@@ -225,7 +225,7 @@ const Homepage = () => {
           My Projects
         </h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap gap-5 justify-center">
           <ProjectCard />
         </div>
       </div>
