@@ -214,7 +214,7 @@ const Homepage = () => {
         </div>
       </div>
       {/* Projects Section */}
-      <div className="ml-8 mr-6" id="projects">
+      <div className="ml-8 mr-6 py-6" id="projects">
         <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">
           My Projects
         </h3>
