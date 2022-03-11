@@ -5,7 +5,7 @@ import "./assets/background.jfif";
 
 function App() {
   return (
-    <div className="m-0 p-0 w-full ">
+    <div className="m-0 p-0 w-full font-sans">
       <div
         style={{
           clipPath: "polygon(0 0, 100% 0, 100% 60%, 0 60%)",

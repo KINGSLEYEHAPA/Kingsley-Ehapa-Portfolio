@@ -52,7 +52,7 @@ export const myProjects = [
   },
   {
     name: "Stutern Website Landing page",
-    description: "A static page of Stutern, coding school.",
+    description: "A static page of Stutern, my coding school.",
     img: "https://i.postimg.cc/nzQLPMF2/stutern.png",
     skills: ["HTML", "CSS", "Javascript"],
     link_github:
