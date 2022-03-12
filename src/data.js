@@ -92,7 +92,7 @@ export const myProjects = [
   {
     name: "Coder-Kingsley Omozogie Ehapa",
     description: "My Portfolio Version 1, 2022",
-    img: "",
+    img: "https://i.postimg.cc/MZPc76RR/personal.png",
     skills: ["HTML", "CSS", "Javascript", "React", "TailWindCSS"],
     link_github: "https://github.com/KINGSLEYEHAPA/Kingsley-Ehapa-Portfolio",
     link_deployment: "",

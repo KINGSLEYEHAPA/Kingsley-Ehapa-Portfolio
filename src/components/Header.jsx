@@ -40,7 +40,7 @@ const Header = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-120}
+          offset={0}
           duration={1000}
           className="hover:text-white   p-1 rounded-md font-bold cursor-pointer"
         >
@@ -129,7 +129,7 @@ const Header = () => {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-120}
+              offset={30}
               duration={1000}
               className="hover:border-b-2 border-b-2 border-slate-500 hover:border-white text-xl pb-2 cursor-pointer "
               onClick={() => {

@@ -1,6 +1,12 @@
 import React from "react";
-import portrait from "../assets/portrait.jpg";
-import { BsTwitter, BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import portrait from "../assets/myportrait.jpg";
+import {
+  BsTwitter,
+  BsGithub,
+  BsLinkedin,
+  BsInstagram,
+  BsFillStarFill,
+} from "react-icons/bs";
 import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { DiNodejsSmall, DiGithubFull } from "react-icons/di";
@@ -26,7 +32,7 @@ const Homepage = () => {
         <div className=" h-96 lg:h-full w-full flex gap-16 md:gap-8 ssm:0 justify-start lg:px-4 order-2 lg:order-1">
           <div
             data-aos="zoom-out-up"
-            className=" w-88 md:w-80 h-72 ssm:h-96 md:h-full  "
+            className=" w-88 md:w-64 h-72 ssm:h-96 md:h-full  "
           >
             <img className="w-full h-full rounded-lg" src={portrait} alt="" />
           </div>
@@ -126,8 +132,8 @@ const Homepage = () => {
                 data-aos="zoom-out-down"
                 className="ssm:text-lg text-slate-300"
               >
-                My CSS3 skills is Intermediate and I am very versatile with the
-                rules of quickly styling an application.
+                My CSS3 skill is good and I am very versatile with the rules of
+                quickly styling an application.
               </p>
             </div>
           </div>
@@ -225,8 +231,33 @@ const Homepage = () => {
           My Projects
         </h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
-        <div className="flex flex-wrap gap-5 justify-center">
-          <ProjectCard />
+        <div className="mt-8">
+          <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
+            {" "}
+            <BsFillStarFill />
+            <h3>Inter-track Projects</h3>
+          </div>
+          <h3 className="text-slate-300 ml-8 mt-8">Coming Soon!</h3>
+        </div>
+        <div className="mt-8">
+          <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
+            {" "}
+            <BsFillStarFill />
+            <h3>Capstone Projects</h3>
+          </div>
+          <h3 className="text-slate-300 ml-8 mt-8">Coming Soon!</h3>
+        </div>
+
+        <div className="mt-8">
+          <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
+            {" "}
+            <BsFillStarFill />
+            <h3>Milestone Projects</h3>
+          </div>
+
+          <div className="flex flex-wrap gap-5 justify-center">
+            <ProjectCard />
+          </div>
         </div>
       </div>
     </div>
