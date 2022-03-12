@@ -93,7 +93,7 @@ const Homepage = () => {
         <div className=" bg-slate-700 h-80 lg:h-full w-screen translate-x-[-32px] lg:w-full lg:w-screen order-1 lg:order-2 p-4  pl-14 pb-12  flex justify-center items-center mx-0">
           <h1
             data-aos="fade-down-left"
-            className="text-5xl md:text-6xl xl:text-7xl text-slate-300 hover:text-white mb-28 ssm:mb-0 ml-16 ssm:ml-0 "
+            className="text-5xl md:text-6xl xl:text-6xl text-slate-300 hover:text-white mb-28 ssm:mb-0 ml-16 ssm:ml-0 font-serif "
           >
             I Build Beautiful Web Applications...
           </h1>
