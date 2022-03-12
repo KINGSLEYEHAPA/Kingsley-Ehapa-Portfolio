@@ -58,7 +58,7 @@ export const myProjects = [
     link_github:
       "https://github.com/KINGSLEYEHAPA/Stutern-Website-Landing-Page-Assignment",
     link_deployment:
-      "https://github.com/KINGSLEYEHAPA/Stutern-Website-Landing-Page-Assignment",
+      "https://kingsleyehapa.github.io/Stutern-Website-Landing-Page-Assignment/",
   },
   {
     name: "EL Cinemas",
