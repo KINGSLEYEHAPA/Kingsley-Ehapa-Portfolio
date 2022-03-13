@@ -27,13 +27,13 @@ const ProjectCard = () => {
               {" "}
               <a
                 href={item.link_deployment}
-                className="py-1 px-2 text-slate-300 rounded-md bg-slate-700  text-md hover:bg-white hover:text-slate-700 shadow-lg"
+                className="py-1 px-2 text-slate-300 rounded-md bg-slate-700 text-xs sm:text-md hover:bg-white hover:text-slate-700 shadow-lg"
               >
                 View Project
               </a>{" "}
               <a
                 href={item.link_github}
-                className="py-1 px-2  text-slate-700  rounded-md bg-white text-md hover:bg-slate-700 hover:text-white shadow-lg "
+                className="py-1 px-2  text-slate-700  rounded-md bg-white text-xs sm:text-md hover:bg-slate-700 hover:text-white shadow-lg "
               >
                 {" "}
                 View on GitHub
