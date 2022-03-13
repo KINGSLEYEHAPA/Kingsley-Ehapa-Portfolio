@@ -29,16 +29,16 @@ const Homepage = () => {
       ></div>
       <main className="w-full h-[65rem] sm:h-[45rem] lg:h-[24rem] flex-col lg:flex lg:flex-row mt-10 space-y-4  lg:space-y-0 mx-0 ">
         {" "}
-        <div className=" h-[45rem] sm:h-96 lg:h-full w-full flex flex-col sm:flex sm:flex-row gap-16 md:gap-8 ssm:0 sm:justify-start lg:px-4 order-2 lg:order-1">
+        <div className=" h-[45rem] sm:h-96 lg:h-full w-full flex flex-col  items-center sm:flex sm:flex-row gap-16 md:gap-8 ssm:0 sm:justify-start sm:items-center lg:px-4 order-2 lg:order-1">
           <div
             data-aos="zoom-out-up"
-            className=" w-[20rem]  sm:w-56 md:w-64 h-96 sm:h-60 ssm:h-96 md:h-full  "
+            className=" w-[20rem]  sm:w-56 md:w-64 h-96 sm:h-72 ssm:h-96 md:h-full  "
           >
             <img className="w-full h-full rounded-lg" src={portrait} alt="" />
           </div>
           <div
             data-aos="flip-up"
-            className=" w-56 ssm:w-72 md:w-72 h-72 ssm:h-72  lg:mr-6 md:mr-56 p-1 flex flex-col justify-start items-start space-y-6 ssm:space-y-12 lg:space-y-16"
+            className=" w-56 ssm:w-72 md:w-72 h-72 ssm:h-72 lg:mr-6 md:mr-56 p-1 flex flex-col justify-start items-start space-y-6 ssm:space-y-8 lg:space-y-12"
           >
             <div className="text-slate-300 space-y-2">
               <h3 className="text-2xl">Kingsley Omozogie Ehapa</h3>
