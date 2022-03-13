@@ -1,5 +1,6 @@
 import React from "react";
 import portrait from "../assets/myportrait.jpg";
+import Typewriter from "typewriter-effect";
 import {
   BsTwitter,
   BsGithub,
@@ -95,7 +96,13 @@ const Homepage = () => {
             data-aos="fade-down-left"
             className=" text-4xl ssm:text-5xl md:text-6xl xl:text-6xl text-slate-300 hover:text-white mb:16 ssm:mb-28 ssm:mb-0  ml:8  sm:ml-16 ssm:ml-0 font-serif "
           >
-            I Build Beautiful Web Applications...
+            <Typewriter
+              options={{
+                strings: ["I Build Beautiful Web Applications..."],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h1>
         </div>
       </main>
