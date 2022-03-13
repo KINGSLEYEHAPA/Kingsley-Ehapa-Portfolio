@@ -99,7 +99,7 @@ const Homepage = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Hi I'm Kingsley",
+                  "Hi, I'm Kingsley",
                   "I Build Beautiful Web Applications...",
                 ],
                 autoStart: true,
