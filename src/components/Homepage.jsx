@@ -98,7 +98,10 @@ const Homepage = () => {
           >
             <Typewriter
               options={{
-                strings: ["I Build Beautiful Web Applications..."],
+                strings: [
+                  "Hi I'm Kingsley",
+                  "I Build Beautiful Web Applications...",
+                ],
                 autoStart: true,
                 loop: true,
               }}
