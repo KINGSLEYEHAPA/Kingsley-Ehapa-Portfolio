@@ -27,12 +27,12 @@ const Homepage = () => {
           backgroundColor: "rgb(51 65 85)",
         }}
       ></div>
-      <main className="w-full h-[45rem] lg:h-[24rem] flex-col lg:flex lg:flex-row mt-10 space-y-4  lg:space-y-0 mx-0 ">
+      <main className="w-full h-[65rem] sm:h-[45rem] lg:h-[24rem] flex-col lg:flex lg:flex-row mt-10 space-y-4  lg:space-y-0 mx-0 ">
         {" "}
-        <div className=" h-96 lg:h-full w-full flex gap-16 md:gap-8 ssm:0 justify-start lg:px-4 order-2 lg:order-1">
+        <div className=" h-[45rem] sm:h-96 lg:h-full w-full flex flex-col sm:flex sm:flex-row gap-16 md:gap-8 ssm:0 sm:justify-start lg:px-4 order-2 lg:order-1">
           <div
             data-aos="zoom-out-up"
-            className=" w-88 md:w-64 h-72 ssm:h-96 md:h-full  "
+            className=" w-[20rem]  sm:w-56 md:w-64 h-96 sm:h-60 ssm:h-96 md:h-full  "
           >
             <img className="w-full h-full rounded-lg" src={portrait} alt="" />
           </div>
@@ -93,7 +93,7 @@ const Homepage = () => {
         <div className=" bg-slate-700 h-80 lg:h-full w-screen translate-x-[-32px] lg:w-full lg:w-screen order-1 lg:order-2 p-4  pl-14 pb-12  flex justify-center items-center mx-0">
           <h1
             data-aos="fade-down-left"
-            className="text-5xl md:text-6xl xl:text-6xl text-slate-300 hover:text-white mb-28 ssm:mb-0 ml-16 ssm:ml-0 font-serif "
+            className=" text-4xl ssm:text-5xl md:text-6xl xl:text-6xl text-slate-300 hover:text-white mb:16 ssm:mb-28 ssm:mb-0  ml:8  sm:ml-16 ssm:ml-0 font-serif "
           >
             I Build Beautiful Web Applications...
           </h1>
@@ -104,13 +104,13 @@ const Homepage = () => {
       <div className="ml-8 mr-6" id="skills">
         <h3 className="text-slate-300 mt-24 text-2xl md:text-4xl">My Skills</h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
-        <div className="mt-4 flex flex-col gap-7 py-4 ">
+        <div className="mt-4 flex flex-col gap-16 ssm:gap-7 py-4 ">
           <div className="flex gap-14 ssm:gap-16">
-            <p className="flex gap-2   text-lg ssm:text-xl text-slate-300 w-36">
+            <p className="flex gap-2    text-lg ssm:text-xl text-slate-300 w-36">
               <FaReact />
               <span>React</span>
             </p>
-            <div className="w-72 ssm:w-full h-56 lg:h-28  px-4 py-1">
+            <div className="w-72 ssm:w-full h-64 lg:h-28  px-4 py-1">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-lg text-slate-300"
@@ -213,7 +213,7 @@ const Homepage = () => {
             <p className=" ml-8 ssm:ml-9 text-lg ssm:text-xl text-slate-300 ">
               <span>AJAX</span>
             </p>
-            <div className="w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 lg:h-28 px-4 py-1 ml-[10rem] md:translate-x-7 ">
+            <div className="w-32 sm:w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 lg:h-28 px-4 py-1 ml-[9rem] sm:ml-[10rem] md:translate-x-7 ">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-lg text-slate-300"

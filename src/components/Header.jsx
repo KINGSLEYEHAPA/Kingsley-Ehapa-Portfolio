@@ -77,11 +77,11 @@ const Header = () => {
           data-aos-easing="ease-in-out"
           className={
             isMobile
-              ? "  flex flex-row  bg-slate-700/60 absolute ssm:hidden  top-0 w-full right-[0.5px] z-20 text-center justify-end items-center h-screen text-slate-300 space-y-2   "
+              ? "  flex flex-row  bg-slate-700/60 absolute ssm:hidden  top-0 w-full right-[0.5px] z-100  text-center justify-end items-center h-screen text-slate-300 space-y-2   "
               : "hidden"
           }
         >
-          <div className="w-72 bg-slate-500 h-full  p-2 flex flex-col items-center gap-4">
+          <div className="w-72 bg-slate-500 h-screen  p-2 flex flex-col items-center gap-4">
             <div className="w-full h-20  flex justify-between items-center px-4 text-2xl text-white border-b-2 border-white mb-10">
               <div className="flex gap-4">
                 <a

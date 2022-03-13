@@ -95,6 +95,6 @@ export const myProjects = [
     img: "https://i.postimg.cc/MZPc76RR/personal.png",
     skills: ["HTML", "CSS", "Javascript", "React", "TailWindCSS"],
     link_github: "https://github.com/KINGSLEYEHAPA/Kingsley-Ehapa-Portfolio",
-    link_deployment: "",
+    link_deployment: "https://sharp-fermat-7b6e4e.netlify.app/",
   },
 ];
