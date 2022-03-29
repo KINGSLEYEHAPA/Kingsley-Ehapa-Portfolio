@@ -61,12 +61,14 @@ const Homepage = () => {
             </div>
             <div className="flex gap-6 text-white text-xl">
               <a
+                target="_blank"
                 href="https://www.linkedin.com/in/kingsley-ehapa-11ba2438/"
                 className="hover:text-slate-300"
               >
                 <BsLinkedin />{" "}
               </a>
               <a
+                target="_blank"
                 href="https://github.com/KINGSLEYEHAPA?tab=repositories"
                 className="hover:text-slate-300"
               >
