@@ -25,6 +25,7 @@ const ProjectCard = ({ myProjects }) => {
             <div className="p-4 flex gap-6 items-center">
               {" "}
               <a
+                target="_blank"
                 href={item.link_deployment}
                 className="py-1 px-2 text-slate-300 rounded-md bg-slate-700 text-xs sm:text-md hover:bg-white hover:text-slate-700 shadow-lg"
               >
@@ -32,6 +33,7 @@ const ProjectCard = ({ myProjects }) => {
               </a>{" "}
               <a
                 href={item.link_github}
+                target="_blank"
                 className="py-1 px-2  text-slate-700  rounded-md bg-white text-xs sm:text-md hover:bg-slate-700 hover:text-white shadow-lg "
               >
                 {" "}
