@@ -1,7 +1,6 @@
 import React from "react";
-import { myProjects } from "../data";
 
-const ProjectCard = () => {
+const ProjectCard = ({ myProjects }) => {
   return (
     <>
       {myProjects.map((item, index) => {

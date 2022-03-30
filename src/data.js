@@ -1,4 +1,4 @@
-export const myProjects = [
+export const minestoneProjects = [
   {
     name: "React Router page ",
     description:
@@ -96,5 +96,18 @@ export const myProjects = [
     skills: ["HTML", "CSS", "Javascript", "React", "TailWindCSS"],
     link_github: "https://github.com/KINGSLEYEHAPA/Kingsley-Ehapa-Portfolio",
     link_deployment: "https://sharp-fermat-7b6e4e.netlify.app/",
+  },
+];
+
+export const capstoneProjects = [
+  {
+    name: "PassEasy",
+    description:
+      "Pass Easy.The sure Platform to prepare for Exams in Wassce,Utme and Postume. This Online Educational Platform is a Nigerian Student Companion.",
+    img: "https://i.postimg.cc/QCVr2K2s/PassEasy.png",
+    skills: ["Javascript", "React", "TailWindCSS", "Redux", "Redux-Persist"],
+    link_github:
+      "https://github.com/KINGSLEYEHAPA/pass-easy-stutern-personal-project",
+    link_deployment: "https://sprightly-gaufre-8a6587.netlify.app/",
   },
 ];

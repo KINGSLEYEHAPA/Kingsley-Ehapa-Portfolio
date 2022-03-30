@@ -1,6 +1,7 @@
 import React from "react";
 import portrait from "../assets/myportrait.jpg";
 import Typewriter from "typewriter-effect";
+import { minestoneProjects, capstoneProjects } from "../data";
 import {
   BsTwitter,
   BsGithub,
@@ -257,7 +258,9 @@ const Homepage = () => {
             <BsFillStarFill />
             <h3>Capstone Projects</h3>
           </div>
-          <h3 className="text-slate-300 ml-8 mt-8">Coming Soon!</h3>
+          <div className="flex flex-wrap gap-5 justify-center">
+            <ProjectCard myProjects={capstoneProjects} />
+          </div>
         </div>
 
         <div className="mt-8">
@@ -268,7 +271,7 @@ const Homepage = () => {
           </div>
 
           <div className="flex flex-wrap gap-5 justify-center">
-            <ProjectCard />
+            <ProjectCard myProjects={minestoneProjects} />
           </div>
         </div>
       </div>
