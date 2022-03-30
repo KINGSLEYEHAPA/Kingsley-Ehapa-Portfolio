@@ -258,7 +258,7 @@ const Homepage = () => {
             <BsFillStarFill />
             <h3>Capstone Projects</h3>
           </div>
-          <div className="flex flex-wrap gap-5 justify-center">
+          <div className="flex flex-wrap gap-5 justify-start">
             <ProjectCard myProjects={capstoneProjects} />
           </div>
         </div>
@@ -270,7 +270,7 @@ const Homepage = () => {
             <h3>Milestone Projects</h3>
           </div>
 
-          <div className="flex flex-wrap gap-5 justify-center">
+          <div className="flex flex-wrap gap-5 justify-start">
             <ProjectCard myProjects={minestoneProjects} />
           </div>
         </div>
