@@ -17,18 +17,6 @@ import ProjectCard from "./ProjectCard";
 const Homepage = () => {
   return (
     <div id="home" className="w-full px-4 min-h-[160rem] bg-slate-700 ">
-      <div
-        style={{
-          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-          position: "absolute",
-          width: "100%",
-          minHeight: "100%",
-          top: "0",
-          left: "0",
-          zIndex: "-5",
-          backgroundColor: "rgb(51 65 85)",
-        }}
-      ></div>
       <main className="w-full h-[65rem] sm:h-[45rem] lg:h-[24rem] flex-col lg:flex lg:flex-row mt-10 space-y-4  lg:space-y-0 mx-0 ">
         {" "}
         <div className=" h-[45rem] sm:h-96 lg:h-full w-full flex flex-col  items-center sm:flex sm:flex-row gap-16 md:gap-8 ssm:0 sm:justify-start sm:items-center lg:px-4 order-2 lg:order-1">
@@ -226,7 +214,7 @@ const Homepage = () => {
             <p className=" ml-8 ssm:ml-9 text-lg ssm:text-xl text-slate-300 ">
               <span>AJAX</span>
             </p>
-            <div className="w-32 sm:w-64 sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 lg:h-28 px-4 py-1 ml-[9rem] sm:ml-[10rem] md:translate-x-7 ">
+            <div className="w-32  sm:w-[18rem] ssm:w-[40rem] lg:w-[46rem] xl:w-[65.5rem] h-56 lg:h-28 px-4 py-1 ml-[9rem] sm:ml-[10rem] md:translate-x-7 ">
               <p
                 data-aos="zoom-out-down"
                 className="ssm:text-lg text-slate-300"
@@ -258,7 +246,7 @@ const Homepage = () => {
             <BsFillStarFill />
             <h3>Capstone Projects</h3>
           </div>
-          <div className="flex flex-wrap gap-5 justify-start">
+          <div className=" grid justify-items-center ssm:justify-items-start">
             <ProjectCard myProjects={capstoneProjects} />
           </div>
         </div>
@@ -270,7 +258,7 @@ const Homepage = () => {
             <h3>Milestone Projects</h3>
           </div>
 
-          <div className="flex flex-wrap gap-5 justify-start">
+          <div className=" grid grid-cols-1 ssm:grid-cols-2 lg:grid-cols-3 justify-items-center">
             <ProjectCard myProjects={minestoneProjects} />
           </div>
         </div>
