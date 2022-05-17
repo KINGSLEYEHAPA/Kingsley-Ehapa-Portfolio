@@ -1,7 +1,7 @@
 import React from "react";
 import portrait from "../assets/myportrait.jpg";
 import Typewriter from "typewriter-effect";
-import { minestoneProjects, capstoneProjects } from "../data";
+import { minestoneProjects, capstoneProjects, myRecentProjects } from "../data";
 import {
   BsTwitter,
   BsGithub,
@@ -232,6 +232,16 @@ const Homepage = () => {
           My Projects
         </h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
+        <div className="mt-8">
+          <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
+            {" "}
+            <BsFillStarFill />
+            <h3>Recent Projects</h3>
+          </div>
+          <div className=" grid justify-items-center ssm:justify-items-start">
+            <ProjectCard myProjects={myRecentProjects} />
+          </div>
+        </div>
         <div className="mt-8">
           <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
             {" "}

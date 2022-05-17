@@ -111,3 +111,15 @@ export const capstoneProjects = [
     link_deployment: "https://sprightly-gaufre-8a6587.netlify.app/",
   },
 ];
+
+export const myRecentProjects = [
+  {
+    name: "Huluv7",
+    description:
+      "Huluv7-a hulu movie app clone. This application give the users access to information about trending movies. Users can look up different genres of movies.",
+    img: "https://i.postimg.cc/MHB7B1Tm/Screenshot-121.png",
+    skills: ["Javascript", "React", "TailWindCSS", "NextJs", "AJAX"],
+    link_github: "https://github.com/KINGSLEYEHAPA/Hulu-v7",
+    link_deployment: "https://hulu-v7.vercel.app/",
+  },
+];
