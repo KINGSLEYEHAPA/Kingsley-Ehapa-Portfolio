@@ -123,3 +123,21 @@ export const myRecentProjects = [
     link_deployment: "https://hulu-v7.vercel.app/",
   },
 ];
+
+export const interTrackProjects = [
+  {
+    name: "Afrive BookStore",
+    description:
+      "This is a Platform that displays and sells african books,i build frontend,work with a backend person and a designer",
+    img: "https://i.postimg.cc/fR1HdjVH/Screenshot-172.png",
+    skills: [
+      "Javascript",
+      "React",
+      "TailWindCSS",
+      "Redux-Toolkit",
+      "Redux-Persist",
+    ],
+    link_github: "https://github.com/KINGSLEYEHAPA/Afrive-Project",
+    link_deployment: "https://afrive-books.vercel.app/",
+  },
+];
