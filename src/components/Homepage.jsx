@@ -121,10 +121,10 @@ const Homepage = () => {
                 data-aos="zoom-out-down"
                 className="ssm:text-lg text-slate-300"
               >
-                I have intermediate experience working with React and different
+                I have intermediate experience working with r and different
                 libraries with the tech. I am experienced writing applications
-                using React, React components,Hooks, React-router-dom for
-                routing,React redux for state management.{" "}
+                using react, react components,hooks, react-router-dom for
+                routing,react redux for state management.{" "}
               </p>
             </div>
           </div>
