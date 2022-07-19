@@ -37,7 +37,7 @@ const Homepage = () => {
           >
             <div className="text-slate-300 space-y-2">
               <h3 className="text-2xl">Kingsley Omozogie Ehapa</h3>
-              <p className="text-sm"> I'm a Frontend Software Engineer</p>
+              <p className="text-sm"> I'm a Frontend Software Developer</p>
             </div>
             <div className="text-slate-300 text-sm">
               <div className="flex justify-start space-x-8 px-1 mx-auto">
@@ -181,7 +181,7 @@ const Homepage = () => {
                 data-aos="zoom-out-down"
                 className="ssm:text-lg text-slate-300"
               >
-                I write most of my my applications of recent using TailwindCSS.I
+                I write most of my applications of recent using TailwindCSS.I
                 have intermediate to advance skill level
               </p>
             </div>

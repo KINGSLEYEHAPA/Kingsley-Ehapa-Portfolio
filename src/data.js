@@ -71,7 +71,7 @@ export const minestoneProjects = [
   {
     name: "Arsenal Fans Club Naija",
     description:
-      "Dynamically creating Navigation Elements to hold navigation links to the page.Written with Javascript to scroll to each section on clicking the item on the navigation menu.The section on view maintains a visted state on clicking and changes state when no longer in view.The news section of the page also have the functionality to change content on clicking the next and previous button.",
+      "Arsenal fans club naija is a blog written to dynamically create navigation elements to hold navigation links to the page.Written with Javascript to scroll to each section of the page.",
     img: "https://i.postimg.cc/fWcztGJV/arsenal-blog.png",
     skills: ["HTML", "CSS", "Javascript"],
     link_github:
@@ -103,7 +103,7 @@ export const capstoneProjects = [
   {
     name: "PassEasy",
     description:
-      "Pass Easy.The sure Platform to prepare for Exams in Wassce,Utme and Postume. This Online Educational Platform is a Nigerian Student Companion.",
+      "Pass Easy.The sure platform to prepare for exams in Wassce,Utme and Postume. This online educational platform is a Nigerian student companion.I built this application with React, Redux and TailwindCss",
     img: "https://i.postimg.cc/QCVr2K2s/PassEasy.png",
     skills: ["Javascript", "React", "TailWindCSS", "Redux", "Redux-Persist"],
     link_github:
@@ -118,7 +118,7 @@ export const myRecentProjects = [
     description:
       "Huluv7-a hulu movie app clone. This application give the users access to information about trending movies. Users can look up different genres of movies.",
     img: "https://i.postimg.cc/MHB7B1Tm/Screenshot-121.png",
-    skills: ["Javascript", "React", "TailWindCSS", "NextJs", "AJAX"],
+    skills: ["Javascript", "TailWindCSS", "NextJs", "AJAX"],
     link_github: "https://github.com/KINGSLEYEHAPA/Hulu-v7",
     link_deployment: "https://hulu-v7.vercel.app/",
   },
@@ -126,9 +126,9 @@ export const myRecentProjects = [
 
 export const interTrackProjects = [
   {
-    name: "Afrive BookStore",
+    name: "Afrive Bookstore",
     description:
-      "This is a Platform that displays and sells african books,i build the frontend,work with a Backend Engineer and a UI/UX designer",
+      "This is a Platform that display and sell books by African Authors,I built the frontend,worked with a Backend Engineer and a UI/UX designer",
     img: "https://i.postimg.cc/fR1HdjVH/Screenshot-172.png",
     skills: [
       "Javascript",
