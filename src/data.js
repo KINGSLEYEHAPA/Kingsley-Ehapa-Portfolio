@@ -37,7 +37,7 @@ export const minestoneProjects = [
   {
     name: "Traveler",
     description:
-      "A travel App. User can type in location and get weather report,news and Attractions in the location.",
+      "A travel App. User can type in location and get weather report,news and attractions in the location.",
     img: "https://i.postimg.cc/YCbj4JD6/traveler.png",
     skills: [
       "HTML",
@@ -71,7 +71,7 @@ export const minestoneProjects = [
   {
     name: "Arsenal Fans Club Naija",
     description:
-      "Arsenal fans club naija is a blog written to dynamically create navigation elements to hold navigation links to the page.Written with Javascript to scroll to each section of the page.",
+      "Arsenal fans club naija is a blog written to dynamically create navigation elements to hold navigation links to the page.Written with Javascript to scroll to each section of the page",
     img: "https://i.postimg.cc/fWcztGJV/arsenal-blog.png",
     skills: ["HTML", "CSS", "Javascript"],
     link_github:
@@ -81,7 +81,7 @@ export const minestoneProjects = [
   },
   {
     name: "Kay-Dad Wears",
-    description: "A Fashion Store ",
+    description: "A Fashion store ",
     img: "https://i.postimg.cc/bwJp5dLn/kay-dad.png",
     skills: ["HTML", "CSS", "Javascript"],
     link_github: "https://github.com/KINGSLEYEHAPA/Bi-weekly-Challenge-3",
