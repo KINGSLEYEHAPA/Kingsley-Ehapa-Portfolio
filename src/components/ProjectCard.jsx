@@ -40,7 +40,7 @@ const ProjectCard = ({ myProjects }) => {
                 View on GitHub
               </a>
             </div>
-            <div className="text-lg flex justify-center items-center w-full h-[32px] text-slate-700">
+            <div className="text-lg font-bold flex justify-center items-center w-full h-[32px] text-slate-700">
               {item.projectType}
             </div>
             <div className="h-32 bg-slate-700 border-2 border-slate-300 p-2">
