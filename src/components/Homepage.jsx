@@ -6,6 +6,7 @@ import {
   capstoneProjects,
   myRecentProjects,
   interTrackProjects,
+  allProjects,
 } from "../data";
 import {
   BsTwitter,
@@ -18,6 +19,7 @@ import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
 import { DiNodejsSmall, DiGithubFull } from "react-icons/di";
 import ProjectCard from "./ProjectCard";
+import ProjectCardUpdate from "./ProjectCardUpdate";
 
 const Homepage = () => {
   return (
@@ -237,7 +239,7 @@ const Homepage = () => {
           My Projects
         </h3>
         <hr className="w-full mt-2 border-b-2  border-slate-300"></hr>
-        <div className="mt-8">
+        {/* <div className="mt-8">
           <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
             {" "}
             <BsFillStarFill />
@@ -246,8 +248,14 @@ const Homepage = () => {
           <div className=" grid justify-items-center ssm:justify-items-start">
             <ProjectCard myProjects={interTrackProjects} />
           </div>
-        </div>
-        <div className="mt-8">
+          <div className="mt-8 grid grid-cols-1 ssm:grid-cols-2 lg:grid-cols-3 justify-items-center">
+            {" "}
+            <ProjectCardUpdate />
+            <ProjectCardUpdate />
+            <ProjectCardUpdate />
+          </div>
+        </div> */}
+        {/* <div className="mt-8">
           <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
             {" "}
             <BsFillStarFill />
@@ -256,9 +264,9 @@ const Homepage = () => {
           <div className=" grid justify-items-center ssm:justify-items-start">
             <ProjectCard myProjects={myRecentProjects} />
           </div>
-        </div>
+        </div> */}
 
-        <div className="mt-8">
+        {/* <div className="mt-8">
           <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
             {" "}
             <BsFillStarFill />
@@ -267,17 +275,17 @@ const Homepage = () => {
           <div className=" grid justify-items-center ssm:justify-items-start">
             <ProjectCard myProjects={capstoneProjects} />
           </div>
-        </div>
+        </div> */}
 
         <div className="mt-8">
-          <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
+          {/* <div className="flex gap-2 text-slate-300 text-xl lg:text-2xl">
             {" "}
             <BsFillStarFill />
             <h3>Milestone Projects</h3>
-          </div>
+          </div> */}
 
           <div className=" grid grid-cols-1 ssm:grid-cols-2 lg:grid-cols-3 justify-items-center">
-            <ProjectCard myProjects={minestoneProjects} />
+            <ProjectCard myProjects={allProjects} />
           </div>
         </div>
       </div>

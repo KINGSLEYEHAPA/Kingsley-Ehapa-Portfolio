@@ -7,7 +7,7 @@ const ProjectCard = ({ myProjects }) => {
         return (
           <div
             data-aos="zoom-out-right"
-            className="w-72 h-[40rem] bg-slate-300 rounded-lg shadow-xl mt-8"
+            className="w-72 h-[41rem] bg-slate-300 rounded-lg shadow-xl mt-8"
             key={index}
           >
             <div className="h-52">
@@ -22,7 +22,7 @@ const ProjectCard = ({ myProjects }) => {
                 alt={item.name}
               />
             </div>
-            <div className="p-4 flex gap-6 items-center">
+            <div className="p-4 flex justify-between items-center">
               {" "}
               <a
                 target="_blank"
@@ -39,6 +39,9 @@ const ProjectCard = ({ myProjects }) => {
                 {" "}
                 View on GitHub
               </a>
+            </div>
+            <div className="text-lg flex justify-center items-center w-full h-[32px] text-slate-700">
+              {item.projectType}
             </div>
             <div className="h-32 bg-slate-700 border-2 border-slate-300 p-2">
               <h4 className="text-slate-300 text-md">{item.name}</h4>
