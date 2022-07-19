@@ -167,7 +167,7 @@ const Homepage = () => {
                 data-aos="zoom-out-down"
                 className="ssm:text-lg text-slate-300"
               >
-                Advanced Javascript, a ES6+ Syntax.
+                Advanced Javascript, and ES6+ Syntax.
               </p>
             </div>
           </div>
