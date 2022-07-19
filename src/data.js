@@ -128,7 +128,7 @@ export const interTrackProjects = [
   {
     name: "Afrive Bookstore",
     description:
-      "This is a Platform that display and sell books by African Authors,I built the frontend,worked with a Backend Engineer and a UI/UX designer",
+      "This is a platform that display and sell books by African Authors,I built the frontend,worked with a Backend Engineer and a UI/UX designer",
     img: "https://i.postimg.cc/fR1HdjVH/Screenshot-172.png",
     skills: [
       "Javascript",
