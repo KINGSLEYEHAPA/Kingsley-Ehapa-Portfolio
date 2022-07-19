@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "../assets/myportrait.jpg";
+import portrait from "../assets/KingsleyEhapaShot.jpg";
 import Typewriter from "typewriter-effect";
 import {
   minestoneProjects,
@@ -22,7 +22,7 @@ import ProjectCard from "./ProjectCard";
 const Homepage = () => {
   return (
     <div id="home" className="w-full px-4 min-h-[160rem] bg-slate-700 ">
-      <main className="w-full h-[65rem] sm:h-[45rem] lg:h-[24rem] flex-col lg:flex lg:flex-row mt-10 space-y-4  lg:space-y-0 mx-0 ">
+      <main className="w-full h-[65rem] sm:h-[45rem] lg:h-[22rem] flex-col lg:flex lg:flex-row mt-10 space-y-4  lg:space-y-0 mx-0 ">
         {" "}
         <div className=" h-[45rem] sm:h-96 lg:h-full w-full flex flex-col  items-center sm:flex sm:flex-row gap-16 md:gap-8 ssm:0 sm:justify-start sm:items-center lg:px-4 order-2 lg:order-1">
           <div
@@ -80,7 +80,7 @@ const Homepage = () => {
               <a
                 className="py-2 px-4 bg-white font-bold rounded text-slate-500 hover:bg-slate-900 hover:text-white"
                 target="_blank"
-                href=" https://docs.google.com/document/d/1tIOWDsmRjXxfForSyBKXBiXQcSmzBvTF/edit?usp=sharing&ouid=115874360830853364717&rtpof=true&sd=true"
+                href=" https://drive.google.com/file/d/1mVq6PAGwnWYCFM4fCkfKyBAKgdjGRlP1/view?usp=sharing"
               >
                 Resume
               </a>
