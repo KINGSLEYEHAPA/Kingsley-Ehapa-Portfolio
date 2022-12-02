@@ -39,7 +39,7 @@ const Homepage = () => {
           >
             <div className="text-slate-300 space-y-2">
               <h3 className="text-2xl">Kingsley Omozogie Ehapa</h3>
-              <p className="text-sm"> I'm a Frontend Software Developer</p>
+              <p className="text-sm"> I'm a Frontend Software Engineer</p>
             </div>
             <div className="text-slate-300 text-sm">
               <div className="flex justify-start space-x-8 px-1 mx-auto">
