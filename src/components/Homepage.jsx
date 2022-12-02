@@ -82,7 +82,7 @@ const Homepage = () => {
               <a
                 className="py-2 px-4 bg-white font-bold rounded text-slate-500 hover:bg-slate-900 hover:text-white"
                 target="_blank"
-                href=" https://drive.google.com/file/d/1mVq6PAGwnWYCFM4fCkfKyBAKgdjGRlP1/view?usp=sharing"
+                href=" https://drive.google.com/file/d/1D1WBrOU4QqVPtXsIXdEFE6knKnv8TtIi/view?usp=share_link"
               >
                 Resume
               </a>
